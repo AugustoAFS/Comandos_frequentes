@@ -1,4 +1,7 @@
-# Comandos_frequentes
-# npm create vite@latest
-# npm install
-# dotnet run dev
+> ####  Comandos frequentes
+>
+> - npm create vite@latest
+> - npm install
+> - dotnet run dev
+> -
+
