@@ -4,8 +4,9 @@
 > <li>npm create vite@latest</li>
 > <li>npm install</li>
 ></ul>
->> ####  Backend
->
-> - dotnet run dev
+><ul>
+>  <h6>C#</h6>
+> <li>dotnet run dev</li>
+></ul>
 
 
