@@ -1,9 +1,8 @@
 > ####  Comandos frequentes
->> ####  Frontend
->
-> - npm create vite@latest
-> - npm install
-> 
+><ul>
+  <h6>npm create vite@latest</h6>
+  <li>npm install</li>
+</ul>
 >> ####  Backend
 >
 > - dotnet run dev
