@@ -1,6 +1,7 @@
 > ####  Comandos frequentes
 ><ul>
-  <h6>npm create vite@latest</h6>
+  <h6>Frontend</h6>
+  <li>npm create vite@latest</li>
   <li>npm install</li>
 </ul>
 >> ####  Backend
