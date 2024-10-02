@@ -4,7 +4,7 @@
 > - npm create vite@latest
 > - npm install
 > 
->> ####  backend
+>> ####  Backend
 >
 > - dotnet run dev
 
