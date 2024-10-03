@@ -14,6 +14,10 @@
 > <ul>
 > <h6>C#</h6>
 >   <li>dotnet run dev</li>
+>   <li>Install-Package Microsoft.EntityFrameworkCore.SqlServer</li>
+>   <li>Install-Package Microsoft.EntityFrameworkCore.Tools</li>
+>   <li>Add-Migration InitialCreate</li>
+>   <li>Update-Database</li>
 > </ul>
 
 
