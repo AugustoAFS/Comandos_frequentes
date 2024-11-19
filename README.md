@@ -20,6 +20,10 @@
 >   <li>Microsoft.EntityFrameworkCore.Tools</li>
 >   <li>Add-Migration InitialCreate</li>
 >   <li>Update-Database</li>
+> </ul>> 
+><ul>
+> <h6>Python</h6>
+>   <li>rápidotapi dev main.py</li>
 > </ul>
 
 
