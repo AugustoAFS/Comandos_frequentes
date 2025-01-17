@@ -20,6 +20,7 @@
 >   <li>Microsoft.EntityFrameworkCore.Tools</li>
 >   <li>Add-Migration InitialCreate</li>
 >   <li>Update-Database</li>
+>   <li>  "ConnectionStrings": { "DefaultConnection": "Server=CQI-BNE-2528\\AUGUSTO;Database=eletropoint;Integrated Security=True;TrustServerCertificate=True;" },</li>
 > </ul> 
 > <ul>
 > <h6>Python</h6>
