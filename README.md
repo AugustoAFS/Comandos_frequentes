@@ -8,13 +8,17 @@
 > </ul>
 > <ul>
 > <h6>Frontend</h6>
->   <li>npm create vite@latest</li>
->   <li>npm install</li>
->     <ul>
->         <h6>Angular</h6>
->           <li>npm i -g @angular/cli</li>
->           <li>ng new Nome do projeto --prefix Nome do prefixo --minimal</li>
->     </ul>
+>    <ul>
+>       <h6>React</h6>
+>       <li>npm create vite@latest</li>
+>       <li>npm install</li>
+>    <ul>
+>    <ul>
+>        <h6>Angular</h6>
+>        <li>npm i -g @angular/cli</li>
+>        <li>ng new Nome do projeto --prefix Nome do prefixo --minimal</li>
+>        <li>ng generate component components/nome do componente </li>
+>    </ul>
 > </ul>
 > <ul>
 > <h6>C#</h6>
