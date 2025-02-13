@@ -1,47 +1,57 @@
-> ####  Comandos frequentes
-><ul>
-> <h6>Git</h6>
->   <li>git add .</li>
->   <li>git commit -m "mensagem do commit"</li>
->   <li>git push origin main</li>
->   <li>git pull origin main</li>
->   <li>git branch</li>
->   <li>git branch <nome></li>
->   <li>git checkout <nome></li>
->   <li>git merge <branch></li>
->   <li>git stash</li>
->   <li>git stash pop</li>
->   <li>git log --oneline</li>
-></ul>
-> <ul>
-> <h6>Frontend</h6>
->    <ul>
->       <h6>React</h6>
->       <li>npm create vite@latest</li>
->       <li>npm install</li>
->    </ul>
->    <ul>
->        <h6>Angular</h6>
->        <li>npm i -g @angular/cli</li>
->        <li>ng new Nome do projeto --prefix Nome do prefixo --minimal</li>
->        <li>ng generate component components/nome do componente</li>
->        <li>ng serve</li>
->        <li>ng build</li>
->    </ul>
-> </ul>
-> <ul>
-> <h6>C#</h6>
->   <li>dotnet run dev</li>
->   <li>dotnet add package Microsoft.EntityFrameworkCore</li>
->   <li>dotnet add package Microsoft.EntityFrameworkCore.SqlServer</li>
->   <li>dotnet add package Microsoft.EntityFrameworkCore.Design</li>
->   <li>dotnet add package Microsoft.EntityFrameworkCore.Tools</li>
->   <li>Add-Migration InitialCreate</li>
->   <li>Update-Database</li>
->   <li>dotnet add package Dapper</li>
->   <li>"ConnectionStrings": { "DefaultConnection": "Server=;Database=;Integrated Security=True;TrustServerCertificate=True;" }</li>
-> </ul>
-> <ul>
-> <h6>Python</h6>
->   <li>rápidotapi dev main.py</li>
-> </ul>
+> #### Comandos frequentes
+>
+> Esta documentação contém comandos essenciais para versionamento de código, desenvolvimento frontend e backend utilizando Git, React, Angular, C# e Python.
+>
+> ### **Git** (Versionamento de Código)
+>
+> O Git é um sistema de controle de versão distribuído que permite rastrear alterações no código e colaborar com outros desenvolvedores.
+>
+> - `git add .` – Adiciona todas as mudanças ao stage.
+> - `git commit -m "mensagem do commit"` – Salva as alterações localmente.
+> - `git push origin <nome-da-branch>` – Envia as mudanças para o repositório remoto. **Sempre especifique o nome da branch ao fazer push.**
+> - `git pull origin <nome-da-branch>` – Atualiza o repositório local com as mudanças do repositório remoto. **Sempre especifique o nome da branch ao fazer pull.**
+> - `git branch` – Lista as branches disponíveis.
+> - `git branch <nome>` – Cria uma nova branch.
+> - `git checkout <nome>` – Alterna para outra branch.
+> - `git merge <branch>` – Mescla uma branch com a atual.
+> - `git stash` – Salva temporariamente mudanças não commitadas.
+> - `git stash pop` – Restaura as mudanças salvas.
+> - `git log --oneline` – Exibe um histórico compacto dos commits.
+>
+> ### **Frontend**
+>
+> #### React
+> - `npm create vite@latest` – Cria um novo projeto com Vite.
+> - `npm install` – Instala as dependências do projeto.
+>
+> #### Angular
+> - `npm i -g @angular/cli` – Instala o Angular CLI globalmente.
+> - `ng new Nome do projeto --prefix Nome do prefixo --minimal` – Cria um novo projeto Angular.
+> - `ng generate component components/nome do componente` – Gera um novo componente.
+> - `ng serve` – Inicia o servidor de desenvolvimento.
+> - `ng build` – Compila o projeto para produção.
+>
+> ### **C#**
+>
+> #### Entity Framework Core
+> - `dotnet run dev` – Inicia o servidor de desenvolvimento.
+> - `dotnet add package Microsoft.EntityFrameworkCore`
+> - `dotnet add package Microsoft.EntityFrameworkCore.SqlServer`
+> - `dotnet add package Microsoft.EntityFrameworkCore.Design`
+> - `dotnet add package Microsoft.EntityFrameworkCore.Tools`
+> - `Add-Migration InitialCreate` – Cria uma nova migração.
+> - `Update-Database` – Aplica as migrações ao banco de dados.
+>
+> #### Dapper (Alternativa ao Entity Framework para acesso a banco de dados)
+> - `dotnet add package Dapper` – Adiciona o pacote do Dapper.
+>
+> #### Configuração da Connection String:
+> ```json
+> "ConnectionStrings": { 
+>   "DefaultConnection": "Server=;Database=;Integrated Security=True;TrustServerCertificate=True;" 
+> }
+> ```
+>
+> ### **Python**
+>
+> - `rápidotapi dev main.py` – Inicia o servidor do RápidoTAPI.
