@@ -1,10 +1,6 @@
 > #### Comandos frequentes
 >
-> Esta documentação contém comandos essenciais para versionamento de código, desenvolvimento frontend e backend utilizando Git, React, Angular, C# e Python.
->
 > ### **Git** (Versionamento de Código)
->
-> O Git é um sistema de controle de versão distribuído que permite rastrear alterações no código e colaborar com outros desenvolvedores.
 >
 > - `git add .` – Adiciona todas as mudanças ao stage.
 > - `git commit -m "mensagem do commit"` – Salva as alterações localmente.
@@ -51,7 +47,3 @@
 >   "DefaultConnection": "Server=;Database=;Integrated Security=True;TrustServerCertificate=True;" 
 > }
 > ```
->
-> ### **Python**
->
-> - `rápidotapi dev main.py` – Inicia o servidor do RápidoTAPI.
