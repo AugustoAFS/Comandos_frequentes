@@ -9,6 +9,7 @@
 > - `git branch` – Lista as branches disponíveis.
 > - `git branch <nome>` – Cria uma nova branch.
 > - `git checkout <nome>` – Alterna para outra branch.
+> - `git checkout -b <nova-branch> <branch-base>` -Cria uma branch baseada em uma branch 
 > - `git merge <branch>` – Mescla uma branch com a atual.
 > - `git stash` – Salva temporariamente mudanças não commitadas.
 > - `git stash pop` – Restaura as mudanças salvas.
