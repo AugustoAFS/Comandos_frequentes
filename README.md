@@ -49,6 +49,7 @@
 > - `Add-Migration InitialCreate` – Cria uma nova migração.
 > - `Update-Database` – Aplica as migrações ao banco de dados.
 > - `Remove-Migration` – Remove a última migração.
+> - `dotnet new gitignore` - Configura o e cria o arquivo .gitignore.
 >
 > #### Dapper (Alternativa ao Entity Framework para acesso a banco de dados)
 > - `dotnet add package Dapper` – Adiciona o pacote do Dapper.
