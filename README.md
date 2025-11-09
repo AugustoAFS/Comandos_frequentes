@@ -54,6 +54,44 @@
 > #### Dapper (Alternativa ao Entity Framework para acesso a banco de dados)
 > - `dotnet add package Dapper` – Adiciona o pacote do Dapper.
 >
+> #### Go (Golang)
+>
+> ##### Inicialização
+> - `go mod init <nome-do-projeto>` – Inicializa um novo módulo Go.
+> - `go mod init github.com/usuario/projeto` – Inicializa com path completo.
+>
+> ##### Gerenciamento de Dependências
+> - `go get <pacote>` – Adiciona uma dependência (última versão).
+> - `go get <pacote>@<versão>` – Adiciona versão específica.
+> - `go get -u <pacote>` – Atualiza uma dependência.
+> - `go mod tidy` – Organiza dependências (remove não usadas, adiciona faltantes).
+> - `go mod download` – Baixa todas as dependências do go.mod.
+> - `go mod verify` – Verifica integridade das dependências.
+> - `go list -m all` – Lista todas as dependências instaladas.
+>
+> ##### Frameworks e Bibliotecas Comuns
+> - `go get github.com/gin-gonic/gin@v1.9.1` – Framework web Gin.
+> - `go get gorm.io/gorm` – ORM GORM.
+> - `go get gorm.io/driver/postgres` – Driver PostgreSQL.
+> - `go get gorm.io/driver/sqlserver` – Driver SQL Server.
+> - `go get github.com/joho/godotenv` – Carrega variáveis de ambiente (.env).
+> - `go get github.com/sirupsen/logrus` – Sistema de logs estruturado.
+> - `go get github.com/golang-jwt/jwt/v5` – Autenticação JWT.
+>
+> ##### Build e Execução
+> - `go build` – Compila o projeto (gera executável).
+> - `go build -o <nome>` – Compila com nome customizado.
+> - `go run main.go` – Executa sem gerar executável.
+> - `go run .` – Executa todos os arquivos .go do diretório.
+> - `GOOS=linux GOARCH=amd64 go build` – Compila para Linux (cross-compile).
+> - `go install` – Compila e instala o binário em $GOPATH/bin.
+>
+> ##### Utilitários
+> - `go env` – Exibe variáveis de ambiente do Go.
+> - `go version` – Exibe a versão do Go instalada.
+> - `go doc <pacote>` – Exibe documentação de um pacote.
+> - `go clean -cache` – Limpa cache de build.
+>
 > #### Configuração da Connection String:
 > ```json
 > "ConnectionStrings": { 
